@@ -43,7 +43,7 @@ function Dice() {
 					src={LogoImage}
 					alt="주사위게임 로고"
 				/>
-				<h1 className="app-title">주사위게임</h1>
+				<h1 className="app-title">주사위 게임!</h1>
 				<div>
 					<Button
 						onClick={handleRollClick}
