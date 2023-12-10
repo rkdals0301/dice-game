@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./App.scss";
 import LogoImage from "./assets/logo.png";
-import Button from "./components/common/button/Button";
-import Board from "./components/common/board/Board";
-import { random } from "./utils/utils";
+import Button from "./components/button/Button";
+import Board from "./components/board/Board";
+import { random } from "./utils/Utils";
 
 function App() {
 	const [myDiceHistory, setMyDiceHistory] = useState([]);
