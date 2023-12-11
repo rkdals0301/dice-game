@@ -21,6 +21,7 @@
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build"
 	},
+	"homepage": "https://rkdals0301.github.io/dice-game/",
 	"eslintConfig": {
 		"extends": [
 			"react-app",
