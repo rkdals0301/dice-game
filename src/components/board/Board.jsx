@@ -2,8 +2,7 @@ import "./Board.scss";
 
 function Board({ name, color, diceHistory, className }) {
 	const diceNumber = diceHistory[diceHistory.length - 1] || 1;
-	const imageName = `dice-${color}-${diceNumber}.svg`;
-	const diceImage = require(`../../assets/${imageName}`);
+	const diceImage = new URL(`../../assets/dice-${color}-${diceNumber}.svg`, import.meta.url).href;
 
 	return (
 		<div className={`board ${className}`}>

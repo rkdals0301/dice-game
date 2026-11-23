@@ -3,7 +3,7 @@ import "./App.scss";
 import LogoImage from "./assets/logo.png";
 import Button from "./components/button/Button";
 import Board from "./components/board/Board";
-import { random } from "./utils/Utils";
+import { random } from "./utils/utils";
 
 function App() {
 	const [myDiceHistory, setMyDiceHistory] = useState([]);
